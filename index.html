@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>我的個人網頁</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .container { max-width: 800px; margin: auto; padding: 20px; }
+        .links { margin-top: 20px; }
+        .links a { display: block; margin: 10px 0; text-decoration: none; color: blue; }
+        @media (max-width: 600px) {
+            .container { padding: 10px; }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>我是一個測試</h1>
-    </header>
+    <div class="container">
+        <h1>自我介紹</h1>
+        <p>我是蔡翌佳，是屏科大的學生<br>
+           平時喜歡打遊戲和剪輯影片<br>
+        </p>
+        
+        <h2>我的作品</h2>
+        <div class="links">
+            <a href="https://你的作品連結.com" target="_blank">作品 1</a>
+            <a href="https://你的作品連結.com" target="_blank">作品 2</a>
+        </div>
+
+        <h2>分享的主題</h2>
+        <div class="links">
+            <a href="https://你的主題連結.com" target="_blank">主題 1</a>
+            <a href="https://你的主題連結.com" target="_blank">主題 2</a>
+        </div>
+    </div>
 </body>
 </html>
